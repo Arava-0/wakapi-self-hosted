@@ -1,0 +1,177 @@
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+credentials*.json
+service-account*.json
+secrets/
+
+# =========================
+# IDE & Editors
+# =========================
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# =========================
+# AI Tools
+# =========================
+.claude/
+.cursor/
+.copilot/
+.aider*
+.codeium/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+ehthumbs.db
+ehthumbs_vista.db
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# =========================
+# Logs & Debug
+# =========================
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+debug/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+.npm
+.yarn/
+.pnp.*
+dist/
+build/
+.next/
+.nuxt/
+.output/
+.cache/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.Python
+*.egg-info/
+*.egg
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+htmlcov/
+
+# =========================
+# Java / Kotlin / JVM
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+
+# =========================
+# Go
+# =========================
+vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# =========================
+# Rust
+# =========================
+target/
+Cargo.lock
+# (keep Cargo.lock for binaries, ignore for libraries)
+
+# =========================
+# Terraform / IaC
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraformrc
+terraform.rc
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp
+*.temp
+*.orig
+*.patch
+*.diff
+*.pid
+*.seed
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+.cache/
+tmp/
+temp/
