@@ -1,5 +1,9 @@
 # Wakapi - Self-Hosted Coding Activity Tracker
 
+[Francais](#fr---francais) | [English](#en---english)
+
+![Wakapi Dashboard](docs/preview.png)
+
 ---
 
 ## FR - Francais
